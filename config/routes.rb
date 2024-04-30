@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   get 'contact' => 'contact#index'
   get 'contact/:nom' => 'contact#show'
 
+  get 'redi'  => 'pages#redi'
+
 
 
 

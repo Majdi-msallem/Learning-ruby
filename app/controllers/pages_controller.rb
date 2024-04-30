@@ -10,6 +10,9 @@ class PagesController <ApplicationController
         render(:template => 'pages/homepage')
         # ou bien  render ('homepage')
     end
+    def redi
+        redirect_to(:controller => 'pages', :action => 'home')
+    end
 
     
 end
