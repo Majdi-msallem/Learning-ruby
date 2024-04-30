@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get 'contact/:nom' => 'contact#show'
 
   get 'redi'  => 'pages#redi'
+  get 'watch' => 'pages#watch'
 
 
 

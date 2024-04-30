@@ -19,5 +19,11 @@ class PagesController <ApplicationController
     def navigation
     end
 
+    #queryString 
+    def watch
+        @id_video = params[:v]
+        #ou bien   @id_video = params['v']
+    end
+
     
 end
