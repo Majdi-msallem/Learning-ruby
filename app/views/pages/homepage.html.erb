@@ -1,1 +1,10 @@
 page home
+
+<a href="/contact"> page Contact</a>
+<br>
+<%= link_to('Page de contact', '/contact')%>
+
+Meilleur methode
+<%= link_to('Page de contact', {:controller =>'contact', :action => 'index'})%>
+
+

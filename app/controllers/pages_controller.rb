@@ -14,5 +14,10 @@ class PagesController <ApplicationController
         redirect_to(:controller => 'pages', :action => 'home')
     end
 
+
+    #Lien
+    def navigation
+    end
+
     
 end

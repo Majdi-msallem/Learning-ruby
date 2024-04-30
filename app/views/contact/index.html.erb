@@ -1,4 +1,7 @@
 <h1>Contact</h1>
+<a href="/"> page d'accueill</a>
+<%= link_to('Page d accueil', {:controller =>'pages', :action => 'home'})%>
+
 <ul>
     <% for key, value in @contact %>
     <li><%= key %> - <%= value %>  </li>
