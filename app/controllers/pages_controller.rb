@@ -5,4 +5,8 @@ class PagesController <ApplicationController
     def test
         @time = Time.now
     end
+
+    def home
+    end
+    
 end
