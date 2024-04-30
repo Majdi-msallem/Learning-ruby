@@ -1,8 +1,14 @@
 <h1>Contact</h1>
 <ul>
-    <% for key, value in @contacts %>
+    <% for key, value in @contact %>
     <li><%= key %> - <%= value %>  </li>
     <% end%>
+<ul>
 
 
- 
+Voir details
+ <ul>
+    <% for nom  in @contact.keys %>
+    <li><a href ="contact/<%= nom %>"> <%= nom %> </li>
+    <% end%>
+<ul>

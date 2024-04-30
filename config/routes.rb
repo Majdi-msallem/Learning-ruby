@@ -1,5 +1,13 @@
 Rails.application.routes.draw do
-  get 'contact/index'
+  #get 'contact/index'
+  get 'contact' => 'contact#index'
+  get 'contact/:nom' => 'contact#show'
+
+
+
+
+
+
   get 'langages/index'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
   get 'friends/index'
