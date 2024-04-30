@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   #get 'contact/index'
+  root 'pages#home' 
+
   get 'contact' => 'contact#index'
   get 'contact/:nom' => 'contact#show'
 
@@ -21,7 +23,6 @@ Rails.application.routes.draw do
   get 'test' => 'pages#test'
   
   #la route racine de notre app web
-  root 'welcome#home' 
   #ou  bien
   #get '/'=> 'pages#home'
 end

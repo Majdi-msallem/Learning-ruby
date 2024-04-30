@@ -7,6 +7,9 @@ class PagesController <ApplicationController
     end
 
     def home
+        render(:template => 'pages/homepage')
+        # ou bien  render ('homepage')
     end
+
     
 end
