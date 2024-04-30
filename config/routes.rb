@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'contact/index'
   get 'langages/index'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
   get 'friends/index'
@@ -8,7 +9,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
-  get 'contact' => 'pages#contact'
+  #get 'contact' => 'pages#contact'
   get 'test' => 'pages#test'
   
   #la route racine de notre app web
