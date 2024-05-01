@@ -1,4 +1,7 @@
 class PagesController <ApplicationController
+
+    #voir diff avec CTR+u dans le navigateur
+    #layout false
     def contact
     end
 
