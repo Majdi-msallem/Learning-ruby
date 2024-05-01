@@ -9,8 +9,9 @@ class PagesController <ApplicationController
         @time = Time.now
     end
 
-    def home
-        render(:template => 'pages/homepage')
+    def home  
+        render 'pages/homepage', layout: 'admin'
+        #render(:template => 'pages/homepage')
         # ou bien  render ('homepage')
     end
     def redi

@@ -1,4 +1,5 @@
 class ContactController < ApplicationController
+  layout 'admin'
   def index
     @contact = {'Ahmed' => '55654',
                  'Khalil '=> '98657',
